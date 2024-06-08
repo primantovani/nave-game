@@ -2,11 +2,29 @@
 <html>
 <head>
     <meta charset="utf-8"/>
-    <title>Game Loop usando requestAnimationFrame</title>
+    <title>Jogo nave</title>
+    <link rel="stylesheet" type="text/css" href="./style.css">
+    <link rel="icon" href="/imagens/foguete-decolando.png">
 </head>
 <body>
-    <canvas id="minha-tela" width="800" height="400"></canvas>  
+    <div class="container">
+        <div class="apresentacao">
+            <div class="text">
+                <p>Embarque em uma aventura espacial emocionante! Controle sua nave, desvie de asteroides e acumule pontos enquanto a dificuldade aumenta. Teste seus reflexos e veja até onde você consegue chegar neste desafio intergaláctico!
+                </p>
+            </div>
+            <canvas id="minha-tela" class="fundo" width="800" height="400"></canvas>  
+    
+        </div>
+    
+        <div class="footer">
+            <p>By: Priscila Mantovani</p>
+        </div>
+    </div>
+
+
     <script type="text/javascript" src="./game.js"></script>
+
 </body>
 </html>
 

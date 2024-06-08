@@ -1,0 +1,49 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: black;
+    display: flex;
+
+}
+
+.fundo {
+    background-image: url('./imagens/canva.jpg'); 
+    background-size: cover; 
+    background-position: center; 
+}
+
+.apresentacao {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; 
+}
+
+.text {
+    max-width: 70%;
+    text-align: center;
+    color: rgb(71, 67, 67);
+    padding-top: 12px;
+    padding-bottom: 34px;
+}
+
+#minha-tela {
+    cursor: pointer;
+    border-radius: 8px;
+    box-shadow: 8px 12px 24px rgb(13, 135, 154);
+    
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.apresentacao {
+    margin-bottom: 20px;
+}
+
+.footer{
+    color: rgb(45, 41, 41);
+}
+
